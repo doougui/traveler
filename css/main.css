@@ -1,0 +1,103 @@
+
+/* Reset & Fonts */
+
+@font-face {
+	font-family: HankenGrotesk-Light;
+	font-display: block;
+	src: url(../font/HankenGrotesk-Light.otf);
+}
+
+@font-face {
+	font-family: Poppins;
+	font-display: block;
+	src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: Oswald;
+	font-display: block;
+	src: url(../font/Oswald-Regular.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand {
+	font-family: Oswald;
+	font-size: 1.9em;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.modal-body {
+	padding-bottom: 0px;
+}
+
+.navbar {
+	z-index: 1000;
+}
+
+.p-navbar {
+	margin-top: 87px;
+}
+
+.icon {
+	height: 100px;
+}
+
+.quote {
+	background: url(../images/caribe.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.social-media-contact {
+	max-width: 260px;
+}
+
+.social-media-footer {
+	max-width: 140px;
+}
+
+.plans span.price {
+	max-width: 400px;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+	padding: 10px 0px 5px 0px;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.plans span.price sup {
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+.plans ul {
+	max-width: 300px;
+	margin: 20px auto;
+	font-size: 1.25em;
+	line-height: 2;
+	font-style: italic;
+}
+
+::-webkit-scrollbar {
+	width: 3px;
+	background-color: #F8F9FA;
+	height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #343A40;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	height: 0;
+}
+
+#wpadminbar ~ #page nav {top: 28px;} 
